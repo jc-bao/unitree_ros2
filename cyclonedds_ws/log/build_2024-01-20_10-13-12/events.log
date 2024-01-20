@@ -1,0 +1,685 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (-) JobUnselected: {'identifier': 'rmw_cyclonedds_cpp'}
+[0.000138] (-) JobUnselected: {'identifier': 'unitree_api'}
+[0.000150] (-) JobUnselected: {'identifier': 'unitree_go'}
+[0.000160] (cyclonedds) JobQueued: {'identifier': 'cyclonedds', 'dependencies': OrderedDict()}
+[0.000173] (cyclonedds) JobStarted: {'identifier': 'cyclonedds'}
+[0.035264] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'cmake'}
+[0.035331] (cyclonedds) Command: {'cmd': ['/usr/bin/cmake', '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds', '-DBUILD_IDLC=AUTO', '-DCMAKE_INSTALL_PREFIX=/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds'], 'cwd': '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds', 'env': OrderedDict([('TMUX_CONF', '/home/tairanhe/.tmux.conf'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,16018,0'), ('USER', 'tairanhe'), ('SSH_CLIENT', '172.26.93.163 58946 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tairanhe'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/src'), ('TMUX_SOCKET', '/tmp/tmux-1000/default'), ('NVM_BIN', '/home/tairanhe/.nvm/versions/node/v20.8.0/bin'), ('SSH_TTY', '/dev/pts/2'), ('NVM_INC', '/home/tairanhe/.nvm/versions/node/v20.8.0/include/node'), ('TMUX_PROGRAM', '/usr/bin/tmux'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('LC_TERMINAL_VERSION', '3.4.23'), ('NVM_DIR', '/home/tairanhe/.nvm'), ('LOGNAME', 'tairanhe'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'tmux-256color'), ('XDG_SESSION_ID', '3'), ('_CE_CONDA', ''), ('PATH', '/home/tairanhe/.local/bin:/usr/local/cuda/bin:/home/tairanhe/.local/bin:/home/tairanhe/.nvm/versions/node/v20.8.0/bin:/usr/local/cuda/bin:/home/tairanhe/anaconda3/envs/dog/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CONDA_PYTHON_EXE', '/home/tairanhe/anaconda3/envs/dog/bin/python'), ('SHELL', '/bin/bash'), ('TMUX_CONF_LOCAL', '/home/tairanhe/.tmux.conf.local'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds'), ('CONDA_EXE', '/home/tairanhe/anaconda3/envs/dog/bin/conda'), ('SSH_CONNECTION', '172.26.93.163 58946 172.26.80.141 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/tairanhe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('TMUX_PANE', '%0')]), 'shell': False}
+[0.099581] (-) TimerEvent: {}
+[0.116011] (cyclonedds) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.122030] (cyclonedds) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.168948] (cyclonedds) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.169797] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199756] (-) TimerEvent: {}
+[0.210607] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.218007] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.218195] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.218365] (cyclonedds) StdoutLine: {'line': b"-- Setting build type to 'RelWithDebInfo' as none was specified.\n"}
+[0.222474] (cyclonedds) StdoutLine: {'line': b'-- Looking for getopt.h\n'}
+[0.266227] (cyclonedds) StdoutLine: {'line': b'-- Looking for getopt.h - found\n'}
+[0.299966] (-) TimerEvent: {}
+[0.314220] (cyclonedds) StdoutLine: {'line': b'-- Building with OpenSSL support\n'}
+[0.320051] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[0.363227] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[0.363415] (cyclonedds) StdoutLine: {'line': b'-- Looking for inttypes.h\n'}
+[0.400166] (-) TimerEvent: {}
+[0.406858] (cyclonedds) StdoutLine: {'line': b'-- Looking for inttypes.h - found\n'}
+[0.407140] (cyclonedds) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[0.451746] (cyclonedds) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[0.452047] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[0.495098] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[0.495292] (cyclonedds) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[0.500370] (-) TimerEvent: {}
+[0.538329] (cyclonedds) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[0.538517] (cyclonedds) StdoutLine: {'line': b'-- Check size of intmax_t\n'}
+[0.582379] (cyclonedds) StdoutLine: {'line': b'-- Check size of intmax_t - done\n'}
+[0.582844] (cyclonedds) StdoutLine: {'line': b'-- Looking for stpcpy\n'}
+[0.600567] (-) TimerEvent: {}
+[0.626798] (cyclonedds) StdoutLine: {'line': b'-- Looking for stpcpy - found\n'}
+[0.627075] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcpy\n'}
+[0.644445] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcpy - not found\n'}
+[0.644654] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcat\n'}
+[0.661857] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcat - not found\n'}
+[0.662861] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[0.700770] (-) TimerEvent: {}
+[0.704453] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[0.704854] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[0.746386] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed\n'}
+[0.746569] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[0.788319] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[0.792676] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostname\n'}
+[0.800980] (-) TimerEvent: {}
+[0.837333] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostname - found\n'}
+[0.837647] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_ntop\n'}
+[0.884463] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_ntop - found\n'}
+[0.884751] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_pton\n'}
+[0.901134] (-) TimerEvent: {}
+[0.929380] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_pton - found\n'}
+[0.929639] (cyclonedds) StdoutLine: {'line': b'-- Looking for getaddrinfo\n'}
+[0.975496] (cyclonedds) StdoutLine: {'line': b'-- Looking for getaddrinfo - found\n'}
+[0.975786] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostbyname_r\n'}
+[1.001313] (-) TimerEvent: {}
+[1.021469] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostbyname_r - found\n'}
+[1.021776] (cyclonedds) StdoutLine: {'line': b'-- Check size of struct sockaddr_in6\n'}
+[1.067102] (cyclonedds) StdoutLine: {'line': b'-- Check size of struct sockaddr_in6 - done\n'}
+[1.067963] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101511] (-) TimerEvent: {}
+[1.113205] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.113509] (cyclonedds) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.159122] (cyclonedds) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.159306] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.196359] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.196542] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.201726] (-) TimerEvent: {}
+[1.239873] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.240615] (cyclonedds) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.240812] (cyclonedds) StdoutLine: {'line': b'-- Looking for clock_gettime in c\n'}
+[1.285351] (cyclonedds) StdoutLine: {'line': b'-- Looking for clock_gettime in c - found\n'}
+[1.301936] (-) TimerEvent: {}
+[1.402313] (-) TimerEvent: {}
+[1.470353] (cyclonedds) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.502510] (-) TimerEvent: {}
+[1.513201] (cyclonedds) StdoutLine: {'line': b'-- Generating done\n'}
+[1.514888] (cyclonedds) StdoutLine: {'line': b'-- Build files have been written to: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds\n'}
+[1.519568] (cyclonedds) CommandEnded: {'returncode': 0}
+[1.521606] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'build'}
+[1.521761] (cyclonedds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds', '--', '-j32', '-l32'], 'cwd': '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds', 'env': OrderedDict([('TMUX_CONF', '/home/tairanhe/.tmux.conf'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,16018,0'), ('USER', 'tairanhe'), ('SSH_CLIENT', '172.26.93.163 58946 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tairanhe'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/src'), ('TMUX_SOCKET', '/tmp/tmux-1000/default'), ('NVM_BIN', '/home/tairanhe/.nvm/versions/node/v20.8.0/bin'), ('SSH_TTY', '/dev/pts/2'), ('NVM_INC', '/home/tairanhe/.nvm/versions/node/v20.8.0/include/node'), ('TMUX_PROGRAM', '/usr/bin/tmux'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('LC_TERMINAL_VERSION', '3.4.23'), ('NVM_DIR', '/home/tairanhe/.nvm'), ('LOGNAME', 'tairanhe'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'tmux-256color'), ('XDG_SESSION_ID', '3'), ('_CE_CONDA', ''), ('PATH', '/home/tairanhe/.local/bin:/usr/local/cuda/bin:/home/tairanhe/.local/bin:/home/tairanhe/.nvm/versions/node/v20.8.0/bin:/usr/local/cuda/bin:/home/tairanhe/anaconda3/envs/dog/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CONDA_PYTHON_EXE', '/home/tairanhe/anaconda3/envs/dog/bin/python'), ('SHELL', '/bin/bash'), ('TMUX_CONF_LOCAL', '/home/tairanhe/.tmux.conf.local'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds'), ('CONDA_EXE', '/home/tairanhe/anaconda3/envs/dog/bin/conda'), ('SSH_CONNECTION', '172.26.93.163 58946 172.26.80.141 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/tairanhe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('TMUX_PANE', '%0')]), 'shell': False}
+[1.545222] (cyclonedds) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating src/md5.c\x1b[0m\n'}
+[1.545456] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target _confgen\x1b[0m\n'}
+[1.545549] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target idlpp\x1b[0m\n'}
+[1.545831] (cyclonedds) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating include/idl/misc.h\x1b[0m\n'}
+[1.545947] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ddsrt-internal\x1b[0m\n'}
+[1.546026] (cyclonedds) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating include/idl/endian.h\x1b[0m\n'}
+[1.546115] (cyclonedds) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating include/idl/attributes.h\x1b[0m\n'}
+[1.548684] (cyclonedds) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating include/idl/md5.h\x1b[0m\n'}
+[1.551808] (cyclonedds) StdoutLine: {'line': b'[  2%] Built target _confgen\n'}
+[1.556869] (cyclonedds) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/directive.c.o\x1b[0m\n'}
+[1.557420] (cyclonedds) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/eval.c.o\x1b[0m\n'}
+[1.558202] (cyclonedds) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/main.c.o\x1b[0m\n'}
+[1.558602] (cyclonedds) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/mbchar.c.o\x1b[0m\n'}
+[1.558725] (cyclonedds) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/support.c.o\x1b[0m\n'}
+[1.559795] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/expand.c.o\x1b[0m\n'}
+[1.561782] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/system.c.o\x1b[0m\n'}
+[1.562264] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ddsc\x1b[0m\n'}
+[1.562721] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target idl\x1b[0m\n'}
+[1.575511] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/avl.c.o\x1b[0m\n'}
+[1.575782] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/atomics.c.o\x1b[0m\n'}
+[1.575906] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/log.c.o\x1b[0m\n'}
+[1.578185] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtod.c.o\x1b[0m\n'}
+[1.578792] (cyclonedds) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/bswap.c.o\x1b[0m\n'}
+[1.578914] (cyclonedds) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/io.c.o\x1b[0m\n'}
+[1.579342] (cyclonedds) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/retcode.c.o\x1b[0m\n'}
+[1.579535] (cyclonedds) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtol.c.o\x1b[0m\n'}
+[1.581355] (cyclonedds) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/mh3.c.o\x1b[0m\n'}
+[1.581865] (cyclonedds) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ.c.o\x1b[0m\n'}
+[1.582074] (cyclonedds) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads.c.o\x1b[0m\n'}
+[1.582324] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/directive.c.o\x1b[0m\n'}
+[1.582523] (cyclonedds) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/expand_vars.c.o\x1b[0m\n'}
+[1.582615] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/file.c.o\x1b[0m\n'}
+[1.582756] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/fibheap.c.o\x1b[0m\n'}
+[1.583158] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/string.c.o\x1b[0m\n'}
+[1.583260] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/expression.c.o\x1b[0m\n'}
+[1.583599] (cyclonedds) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets.c.o\x1b[0m\n'}
+[1.583746] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/circlist.c.o\x1b[0m\n'}
+[1.583824] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/symbol.c.o\x1b[0m\n'}
+[1.583913] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/hopscotch.c.o\x1b[0m\n'}
+[1.585972] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/md5.c.o\x1b[0m\n'}
+[1.598548] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scanner.c.o\x1b[0m\n'}
+[1.598903] (cyclonedds) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/processor.c.o\x1b[0m\n'}
+[1.602627] (-) TimerEvent: {}
+[1.620746] (cyclonedds) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/xmlparser.c.o\x1b[0m\n'}
+[1.626246] (cyclonedds) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs.c.o\x1b[0m\n'}
+[1.626570] (cyclonedds) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/cdtors.c.o\x1b[0m\n'}
+[1.631878] (cyclonedds) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random.c.o\x1b[0m\n'}
+[1.652100] (cyclonedds) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time.c.o\x1b[0m\n'}
+[1.659159] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs/posix/ifaddrs.c.o\x1b[0m\n'}
+[1.660898] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/string.c.o\x1b[0m\n'}
+[1.691691] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/gethostname.c.o\x1b[0m\n'}
+[1.694202] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/heap/posix/heap.c.o\x1b[0m\n'}
+[1.697220] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/dynlib/posix/dynlib.c.o\x1b[0m\n'}
+[1.702732] (-) TimerEvent: {}
+[1.705817] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ/posix/environ.c.o\x1b[0m\n'}
+[1.706188] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/socket.c.o\x1b[0m\n'}
+[1.706308] (cyclonedds) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/filesystem/posix/filesystem.c.o\x1b[0m\n'}
+[1.708506] (cyclonedds) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/process/posix/process.c.o\x1b[0m\n'}
+[1.712982] (cyclonedds) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/annotation.c.o\x1b[0m\n'}
+[1.733238] (cyclonedds) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random/posix/random.c.o\x1b[0m\n'}
+[1.741638] (cyclonedds) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scope.c.o\x1b[0m\n'}
+[1.742708] (cyclonedds) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sync/posix/sync.c.o\x1b[0m\n'}
+[1.748317] (cyclonedds) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads/posix/threads.c.o\x1b[0m\n'}
+[1.761405] (cyclonedds) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time/posix/time.c.o\x1b[0m\n'}
+[1.765280] (cyclonedds) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/netstat/linux/netstat.c.o\x1b[0m\n'}
+[1.769981] (cyclonedds) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/rusage/posix/rusage.c.o\x1b[0m\n'}
+[1.771734] (cyclonedds) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/tree.c.o\x1b[0m\n'}
+[1.778470] (cyclonedds) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/visit.c.o\x1b[0m\n'}
+[1.786395] (cyclonedds) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/print.c.o\x1b[0m\n'}
+[1.790040] (cyclonedds) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/hashid.c.o\x1b[0m\n'}
+[1.792092] (cyclonedds) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/parser.c.o\x1b[0m\n'}
+[1.802845] (-) TimerEvent: {}
+[1.805454] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/keylist.c.o\x1b[0m\n'}
+[1.825372] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/md5.c.o\x1b[0m\n'}
+[1.902959] (-) TimerEvent: {}
+[1.951375] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o\x1b[0m\n'}
+[1.955319] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o\x1b[0m\n'}
+[1.955528] (cyclonedds) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vnet.c.o\x1b[0m\n'}
+[1.955633] (cyclonedds) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o\x1b[0m\n'}
+[1.955764] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o\x1b[0m\n'}
+[1.955953] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o\x1b[0m\n'}
+[1.956067] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o\x1b[0m\n'}
+[1.956370] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o\x1b[0m\n'}
+[1.956463] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o\x1b[0m\n'}
+[1.956654] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o\x1b[0m\n'}
+[1.956741] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o\x1b[0m\n'}
+[1.957225] (cyclonedds) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o\x1b[0m\n'}
+[1.957744] (cyclonedds) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_default.c.o\x1b[0m\n'}
+[1.957987] (cyclonedds) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o\x1b[0m\n'}
+[1.958147] (cyclonedds) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o\x1b[0m\n'}
+[1.958387] (cyclonedds) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o\x1b[0m\n'}
+[1.958691] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype.c.o\x1b[0m\n'}
+[1.959276] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o\x1b[0m\n'}
+[1.959570] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_pserop.c.o\x1b[0m\n'}
+[1.962610] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_default.c.o\x1b[0m\n'}
+[1.967240] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_plist.c.o\x1b[0m\n'}
+[1.998147] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking C static library ../../lib/libddsrt-internal.a\x1b[0m\n'}
+[2.003084] (-) TimerEvent: {}
+[2.007665] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic.c.o\x1b[0m\n'}
+[2.018249] (cyclonedds) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o\x1b[0m\n'}
+[2.034703] (cyclonedds) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o\x1b[0m\n'}
+[2.049110] (cyclonedds) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o\x1b[0m\n'}
+[2.049438] (cyclonedds) StdoutLine: {'line': b'[ 35%] Built target ddsrt-internal\n'}
+[2.059640] (cyclonedds) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o\x1b[0m\n'}
+[2.059920] (cyclonedds) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o\x1b[0m\n'}
+[2.103212] (-) TimerEvent: {}
+[2.106055] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o\x1b[0m\n'}
+[2.106379] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o\x1b[0m\n'}
+[2.117900] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o\x1b[0m\n'}
+[2.127188] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o\x1b[0m\n'}
+[2.127540] (cyclonedds) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o\x1b[0m\n'}
+[2.131220] (cyclonedds) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o\x1b[0m\n'}
+[2.147655] (cyclonedds) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_cdrstream.c.o\x1b[0m\n'}
+[2.155875] (cyclonedds) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_config.c.o\x1b[0m\n'}
+[2.162265] (cyclonedds) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o\x1b[0m\n'}
+[2.182692] (cyclonedds) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ownip.c.o\x1b[0m\n'}
+[2.183287] (cyclonedds) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o\x1b[0m\n'}
+[2.185851] (cyclonedds) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_list_genptr.c.o\x1b[0m\n'}
+[2.192913] (cyclonedds) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_wraddrset.c.o\x1b[0m\n'}
+[2.197878] (cyclonedds) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelib.c.o\x1b[0m\n'}
+[2.203329] (-) TimerEvent: {}
+[2.220203] (cyclonedds) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity.c.o\x1b[0m\n'}
+[2.228412] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_participant.c.o\x1b[0m\n'}
+[2.229327] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_match.c.o\x1b[0m\n'}
+[2.244512] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_participant.c.o\x1b[0m\n'}
+[2.262542] (cyclonedds) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_topic.c.o\x1b[0m\n'}
+[2.267923] (cyclonedds) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_endpoint.c.o\x1b[0m\n'}
+[2.270321] (cyclonedds) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_endpoint.c.o\x1b[0m\n'}
+[2.272481] (cyclonedds) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_addrset.c.o\x1b[0m\n'}
+[2.277880] (cyclonedds) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bitset_inlines.c.o\x1b[0m\n'}
+[2.282433] (cyclonedds) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bswap.c.o\x1b[0m\n'}
+[2.294880] (cyclonedds) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_ddsi_discovery.c.o\x1b[0m\n'}
+[2.303455] (-) TimerEvent: {}
+[2.338776] (cyclonedds) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_debmon.c.o\x1b[0m\n'}
+[2.344387] (cyclonedds) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_gc.c.o\x1b[0m\n'}
+[2.355160] (cyclonedds) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_init.c.o\x1b[0m\n'}
+[2.362720] (cyclonedds) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lat_estim.c.o\x1b[0m\n'}
+[2.372912] (cyclonedds) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lease.c.o\x1b[0m\n'}
+[2.378397] (cyclonedds) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_misc.c.o\x1b[0m\n'}
+[2.391113] (cyclonedds) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_pcap.c.o\x1b[0m\n'}
+[2.403586] (-) TimerEvent: {}
+[2.425001] (cyclonedds) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_qosmatch.c.o\x1b[0m\n'}
+[2.444060] (cyclonedds) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_radmin.c.o\x1b[0m\n'}
+[2.480918] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_receive.c.o\x1b[0m\n'}
+[2.494233] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_sockwaitset.c.o\x1b[0m\n'}
+[2.496222] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_thread.c.o\x1b[0m\n'}
+[2.503707] (-) TimerEvent: {}
+[2.507013] (cyclonedds) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_transmit.c.o\x1b[0m\n'}
+[2.510163] (cyclonedds) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_inverse_uint32_set.c.o\x1b[0m\n'}
+[2.526797] (cyclonedds) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_whc.c.o\x1b[0m\n'}
+[2.528251] (cyclonedds) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C static library ../../../lib/libidlpp.a\x1b[0m\n'}
+[2.563293] (cyclonedds) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xevent.c.o\x1b[0m\n'}
+[2.575607] (cyclonedds) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xmsg.c.o\x1b[0m\n'}
+[2.577036] (cyclonedds) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_freelist.c.o\x1b[0m\n'}
+[2.586427] (cyclonedds) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o\x1b[0m\n'}
+[2.587004] (cyclonedds) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/sysdeps.c.o\x1b[0m\n'}
+[2.592882] (cyclonedds) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typeinfo.c.o\x1b[0m\n'}
+[2.597199] (cyclonedds) StdoutLine: {'line': b'[ 55%] Built target idlpp\n'}
+[2.603837] (-) TimerEvent: {}
+[2.607464] (cyclonedds) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typelookup.c.o\x1b[0m\n'}
+[2.608371] (cyclonedds) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typemap.c.o\x1b[0m\n'}
+[2.621305] (cyclonedds) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typewrap.c.o\x1b[0m\n'}
+[2.621671] (cyclonedds) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelookup.c.o\x1b[0m\n'}
+[2.629534] (cyclonedds) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typebuilder.c.o\x1b[0m\n'}
+[2.637529] (cyclonedds) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o\x1b[0m\n'}
+[2.646097] (cyclonedds) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o\x1b[0m\n'}
+[2.674692] (cyclonedds) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o\x1b[0m\n'}
+[2.674962] (cyclonedds) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/defconfig.c.o\x1b[0m\n'}
+[2.685635] (cyclonedds) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o\x1b[0m\n'}
+[2.689942] (cyclonedds) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o\x1b[0m\n'}
+[2.694187] (cyclonedds) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o\x1b[0m\n'}
+[2.696378] (cyclonedds) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o\x1b[0m\n'}
+[2.697157] (cyclonedds) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o\x1b[0m\n'}
+[2.698914] (cyclonedds) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o\x1b[0m\n'}
+[2.703943] (-) TimerEvent: {}
+[2.706758] (cyclonedds) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o\x1b[0m\n'}
+[2.748064] (cyclonedds) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o\x1b[0m\n'}
+[2.790576] (cyclonedds) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o\x1b[0m\n'}
+[2.803146] (cyclonedds) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o\x1b[0m\n'}
+[2.803476] (cyclonedds) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o\x1b[0m\n'}
+[2.804023] (-) TimerEvent: {}
+[2.805350] (cyclonedds) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o\x1b[0m\n'}
+[2.814034] (cyclonedds) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o\x1b[0m\n'}
+[2.834338] (cyclonedds) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o\x1b[0m\n'}
+[2.835590] (cyclonedds) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o\x1b[0m\n'}
+[2.866612] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o\x1b[0m\n'}
+[2.878213] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o\x1b[0m\n'}
+[2.884155] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o\x1b[0m\n'}
+[2.904163] (-) TimerEvent: {}
+[2.917613] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library ../../lib/libcycloneddsidl.so\x1b[0m\n'}
+[2.929537] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o\x1b[0m\n'}
+[2.938363] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o\x1b[0m\n'}
+[2.946408] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o\x1b[0m\n'}
+[2.990091] (cyclonedds) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o\x1b[0m\n'}
+[2.993777] (cyclonedds) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o\x1b[0m\n'}
+[2.995502] (cyclonedds) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o\x1b[0m\n'}
+[3.004267] (-) TimerEvent: {}
+[3.046592] (cyclonedds) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o\x1b[0m\n'}
+[3.047090] (cyclonedds) StdoutLine: {'line': b'[ 68%] Built target idl\n'}
+[3.057615] (cyclonedds) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o\x1b[0m\n'}
+[3.058114] (cyclonedds) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o\x1b[0m\n'}
+[3.076256] (cyclonedds) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o\x1b[0m\n'}
+[3.084151] (cyclonedds) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertype_builtintopic.c.o\x1b[0m\n'}
+[3.089168] (cyclonedds) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_data_allocator.c.o\x1b[0m\n'}
+[3.098151] (cyclonedds) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_loan.c.o\x1b[0m\n'}
+[3.104391] (-) TimerEvent: {}
+[3.109414] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o\x1b[0m\n'}
+[3.132774] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o\x1b[0m\n'}
+[3.140461] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o\x1b[0m\n'}
+[3.159683] (cyclonedds) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/shared_secret.c.o\x1b[0m\n'}
+[3.160988] (cyclonedds) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o\x1b[0m\n'}
+[3.168158] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o\x1b[0m\n'}
+[3.172138] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o\x1b[0m\n'}
+[3.204498] (-) TimerEvent: {}
+[3.207076] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o\x1b[0m\n'}
+[3.228134] (cyclonedds) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o\x1b[0m\n'}
+[3.228367] (cyclonedds) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o\x1b[0m\n'}
+[3.229722] (cyclonedds) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o\x1b[0m\n'}
+[3.236244] (cyclonedds) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o\x1b[0m\n'}
+[3.239262] (cyclonedds) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o\x1b[0m\n'}
+[3.254327] (cyclonedds) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o\x1b[0m\n'}
+[3.263158] (cyclonedds) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o\x1b[0m\n'}
+[3.276813] (cyclonedds) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o\x1b[0m\n'}
+[3.282672] (cyclonedds) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o\x1b[0m\n'}
+[3.282992] (cyclonedds) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o\x1b[0m\n'}
+[3.292396] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o\x1b[0m\n'}
+[3.292621] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o\x1b[0m\n'}
+[3.296953] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o\x1b[0m\n'}
+[3.297314] (cyclonedds) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o\x1b[0m\n'}
+[3.304623] (-) TimerEvent: {}
+[3.309616] (cyclonedds) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o\x1b[0m\n'}
+[3.313281] (cyclonedds) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o\x1b[0m\n'}
+[3.314941] (cyclonedds) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o\x1b[0m\n'}
+[3.316615] (cyclonedds) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o\x1b[0m\n'}
+[3.334289] (cyclonedds) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o\x1b[0m\n'}
+[3.334940] (cyclonedds) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o\x1b[0m\n'}
+[3.342763] (cyclonedds) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o\x1b[0m\n'}
+[3.346997] (cyclonedds) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o\x1b[0m\n'}
+[3.347206] (cyclonedds) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o\x1b[0m\n'}
+[3.350313] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o\x1b[0m\n'}
+[3.359825] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o\x1b[0m\n'}
+[3.360351] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o\x1b[0m\n'}
+[3.374243] (cyclonedds) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o\x1b[0m\n'}
+[3.390290] (cyclonedds) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o\x1b[0m\n'}
+[3.403653] (cyclonedds) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o\x1b[0m\n'}
+[3.404025] (cyclonedds) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o\x1b[0m\n'}
+[3.404694] (-) TimerEvent: {}
+[3.407750] (cyclonedds) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o\x1b[0m\n'}
+[3.420311] (cyclonedds) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o\x1b[0m\n'}
+[3.426737] (cyclonedds) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o\x1b[0m\n'}
+[3.428060] (cyclonedds) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o\x1b[0m\n'}
+[3.429872] (cyclonedds) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o\x1b[0m\n'}
+[3.504807] (-) TimerEvent: {}
+[3.605209] (-) TimerEvent: {}
+[3.705608] (-) TimerEvent: {}
+[3.806019] (-) TimerEvent: {}
+[3.906418] (-) TimerEvent: {}
+[4.006809] (-) TimerEvent: {}
+[4.107182] (-) TimerEvent: {}
+[4.206059] (cyclonedds) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library ../../lib/libddsc.so\x1b[0m\n'}
+[4.207379] (-) TimerEvent: {}
+[4.307724] (-) TimerEvent: {}
+[4.330673] (cyclonedds) StdoutLine: {'line': b'[ 87%] Built target ddsc\n'}
+[4.337254] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target idlc\x1b[0m\n'}
+[4.337427] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dds_security_auth\x1b[0m\n'}
+[4.337502] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dds_security_ac\x1b[0m\n'}
+[4.337870] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dds_security_crypto\x1b[0m\n'}
+[4.354409] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/idlc.c.o\x1b[0m\n'}
+[4.354666] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/plugin.c.o\x1b[0m\n'}
+[4.355065] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o\x1b[0m\n'}
+[4.355200] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o\x1b[0m\n'}
+[4.355316] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/options.c.o\x1b[0m\n'}
+[4.355706] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o\x1b[0m\n'}
+[4.358547] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor_type_meta.c.o\x1b[0m\n'}
+[4.359007] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/generator.c.o\x1b[0m\n'}
+[4.359404] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/types.c.o\x1b[0m\n'}
+[4.359878] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor.c.o\x1b[0m\n'}
+[4.360415] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o\x1b[0m\n'}
+[4.361487] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o\x1b[0m\n'}
+[4.363282] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o\x1b[0m\n'}
+[4.365300] (cyclonedds) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o\x1b[0m\n'}
+[4.365664] (cyclonedds) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o\x1b[0m\n'}
+[4.365843] (cyclonedds) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o\x1b[0m\n'}
+[4.369376] (cyclonedds) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o\x1b[0m\n'}
+[4.369627] (cyclonedds) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o\x1b[0m\n'}
+[4.369746] (cyclonedds) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o\x1b[0m\n'}
+[4.370524] (cyclonedds) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o\x1b[0m\n'}
+[4.370857] (cyclonedds) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o\x1b[0m\n'}
+[4.371001] (cyclonedds) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o\x1b[0m\n'}
+[4.371750] (cyclonedds) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o\x1b[0m\n'}
+[4.407913] (-) TimerEvent: {}
+[4.508339] (-) TimerEvent: {}
+[4.608828] (-) TimerEvent: {}
+[4.709182] (-) TimerEvent: {}
+[4.789974] (cyclonedds) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library ../../../../lib/libdds_security_ac.so\x1b[0m\n'}
+[4.796592] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library ../../../../lib/libdds_security_crypto.so\x1b[0m\n'}
+[4.809280] (-) TimerEvent: {}
+[4.830090] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target dds_security_ac\n'}
+[4.836017] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library ../../../../lib/libdds_security_auth.so\x1b[0m\n'}
+[4.836231] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target dds_security_crypto\n'}
+[4.872549] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target dds_security_auth\n'}
+[4.909396] (-) TimerEvent: {}
+[4.990250] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C executable ../../../bin/idlc\x1b[0m\n'}
+[5.009601] (-) TimerEvent: {}
+[5.030974] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target idlc\n'}
+[5.036794] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ddsperf_types_generate\x1b[0m\n'}
+[5.042755] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[34m\x1b[1mGenerating ddsperf_types.c, ddsperf_types.h\x1b[0m\n'}
+[5.059038] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target ddsperf_types_generate\n'}
+[5.064657] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ddsperf\x1b[0m\n'}
+[5.079682] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf.c.o\x1b[0m\n'}
+[5.080140] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/cputime.c.o\x1b[0m\n'}
+[5.080532] (cyclonedds) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/netload.c.o\x1b[0m\n'}
+[5.080641] (cyclonedds) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/async_listener.c.o\x1b[0m\n'}
+[5.080738] (cyclonedds) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf_types.c.o\x1b[0m\n'}
+[5.109812] (-) TimerEvent: {}
+[5.210184] (-) TimerEvent: {}
+[5.310604] (-) TimerEvent: {}
+[5.411019] (-) TimerEvent: {}
+[5.511396] (-) TimerEvent: {}
+[5.575562] (cyclonedds) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C executable ../../../bin/ddsperf\x1b[0m\n'}
+[5.610080] (cyclonedds) StdoutLine: {'line': b'[100%] Built target ddsperf\n'}
+[5.611598] (-) TimerEvent: {}
+[5.618334] (cyclonedds) CommandEnded: {'returncode': 0}
+[5.634208] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'install'}
+[5.640512] (cyclonedds) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds'], 'cwd': '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds', 'env': OrderedDict([('TMUX_CONF', '/home/tairanhe/.tmux.conf'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,16018,0'), ('USER', 'tairanhe'), ('SSH_CLIENT', '172.26.93.163 58946 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tairanhe'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/src'), ('TMUX_SOCKET', '/tmp/tmux-1000/default'), ('NVM_BIN', '/home/tairanhe/.nvm/versions/node/v20.8.0/bin'), ('SSH_TTY', '/dev/pts/2'), ('NVM_INC', '/home/tairanhe/.nvm/versions/node/v20.8.0/include/node'), ('TMUX_PROGRAM', '/usr/bin/tmux'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('LC_TERMINAL_VERSION', '3.4.23'), ('NVM_DIR', '/home/tairanhe/.nvm'), ('LOGNAME', 'tairanhe'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'tmux-256color'), ('XDG_SESSION_ID', '3'), ('_CE_CONDA', ''), ('PATH', '/home/tairanhe/.local/bin:/usr/local/cuda/bin:/home/tairanhe/.local/bin:/home/tairanhe/.nvm/versions/node/v20.8.0/bin:/usr/local/cuda/bin:/home/tairanhe/anaconda3/envs/dog/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CONDA_PYTHON_EXE', '/home/tairanhe/anaconda3/envs/dog/bin/python'), ('SHELL', '/bin/bash'), ('TMUX_CONF_LOCAL', '/home/tairanhe/.tmux.conf.local'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds'), ('CONDA_EXE', '/home/tairanhe/anaconda3/envs/dog/bin/conda'), ('SSH_CONNECTION', '172.26.93.163 58946 172.26.80.141 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/tairanhe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('TMUX_PANE', '%0')]), 'shell': False}
+[5.645299] (cyclonedds) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[5.645487] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfig.cmake\n'}
+[5.645655] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfigVersion.cmake\n'}
+[5.645752] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake\n'}
+[5.645822] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake\n'}
+[5.645887] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig/CycloneDDS.pc\n'}
+[5.646180] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idlc\n'}
+[5.646411] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idlc/options.h\n'}
+[5.646486] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idlc/generator.h\n'}
+[5.646562] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin/idlc\n'}
+[5.647050] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin/idlc" to "$ORIGIN/../lib"\n'}
+[5.647187] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/idlc/Generate.cmake\n'}
+[5.647278] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin/ddsperf\n'}
+[5.647346] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin/ddsperf" to "$ORIGIN/../lib"\n'}
+[5.647525] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include\n'}
+[5.647641] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[5.647744] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt\n'}
+[5.647844] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync.h\n'}
+[5.647933] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem.h\n'}
+[5.648032] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/circlist.h\n'}
+[5.648128] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/fibheap.h\n'}
+[5.648213] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets\n'}
+[5.648306] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets/posix.h\n'}
+[5.648400] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets/windows.h\n'}
+[5.648494] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/mh3.h\n'}
+[5.648587] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics.h\n'}
+[5.648681] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/expand_vars.h\n'}
+[5.648767] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/dynlib.h\n'}
+[5.648866] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/endian.h\n'}
+[5.649031] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/misc.h\n'}
+[5.649169] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/string.h\n'}
+[5.649210] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/bswap.h\n'}
+[5.649246] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync\n'}
+[5.649312] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync/posix.h\n'}
+[5.649347] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync/freertos.h\n'}
+[5.649379] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync/windows.h\n'}
+[5.649409] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/hopscotch.h\n'}
+[5.649439] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads\n'}
+[5.649469] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads/posix.h\n'}
+[5.649499] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads/freertos.h\n'}
+[5.649530] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads/windows.h\n'}
+[5.649593] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sched.h\n'}
+[5.649631] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/time\n'}
+[5.649662] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/time/freertos.h\n'}
+[5.649693] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads.h\n'}
+[5.649722] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/random.h\n'}
+[5.649776] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/ifaddrs.h\n'}
+[5.649805] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/strtol.h\n'}
+[5.649834] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/heap.h\n'}
+[5.649861] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types\n'}
+[5.649887] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types/posix.h\n'}
+[5.649914] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types/windows.h\n'}
+[5.649944] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types/vxworks.h\n'}
+[5.649973] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/countargs.h\n'}
+[5.650003] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem\n'}
+[5.650056] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem/posix.h\n'}
+[5.650087] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem/windows.h\n'}
+[5.650116] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/environ.h\n'}
+[5.650146] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/netstat.h\n'}
+[5.650176] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/retcode.h\n'}
+[5.650205] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/align.h\n'}
+[5.650234] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/process.h\n'}
+[5.650264] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/cdtors.h\n'}
+[5.650293] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/xmlparser.h\n'}
+[5.650322] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics\n'}
+[5.650351] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/gcc.h\n'}
+[5.650380] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/arm.h\n'}
+[5.650409] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/msvc.h\n'}
+[5.650439] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/sun.h\n'}
+[5.650469] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/attributes.h\n'}
+[5.650499] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/iovec.h\n'}
+[5.650538] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/arch.h\n'}
+[5.650568] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets.h\n'}
+[5.650597] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/log.h\n'}
+[5.650626] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/time.h\n'}
+[5.650654] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/avl.h\n'}
+[5.650683] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/md5.h\n'}
+[5.650712] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/io.h\n'}
+[5.650773] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types.h\n'}
+[5.650805] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/rusage.h\n'}
+[5.650833] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/static_assert.h\n'}
+[5.650860] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/strtod.h\n'}
+[5.650887] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include\n'}
+[5.650914] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[5.650941] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/config.h\n'}
+[5.650967] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/version.h\n'}
+[5.650993] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/features.h\n'}
+[5.651019] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl\n'}
+[5.651046] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/processor.h\n'}
+[5.651073] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/string.h\n'}
+[5.651125] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/scope.h\n'}
+[5.651153] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/tree.h\n'}
+[5.651189] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/print.h\n'}
+[5.651216] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/file.h\n'}
+[5.651251] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/symbol.h\n'}
+[5.651277] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/retcode.h\n'}
+[5.651302] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/visit.h\n'}
+[5.651328] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/stream.h\n'}
+[5.651354] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/expression.h\n'}
+[5.651379] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl\n'}
+[5.651404] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/endian.h\n'}
+[5.651432] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/misc.h\n'}
+[5.651464] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/version.h\n'}
+[5.651492] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/export.h\n'}
+[5.651520] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/attributes.h\n'}
+[5.651549] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/md5.h\n'}
+[5.651576] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so.0.10.4\n'}
+[5.651605] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so.0\n'}
+[5.651633] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so.0.10.4" to "$ORIGIN/../lib"\n'}
+[5.651663] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so\n'}
+[5.651710] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include\n'}
+[5.651772] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[5.651805] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security\n'}
+[5.651833] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_types.h\n'}
+[5.651870] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_defs.h\n'}
+[5.651900] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_access_control.h\n'}
+[5.651930] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api.h\n'}
+[5.651961] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_cryptography.h\n'}
+[5.651991] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_err.h\n'}
+[5.652020] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_authentication.h\n'}
+[5.652050] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core/\n'}
+[5.652093] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_timed_cb.h\n'}
+[5.652151] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_utils.h\n'}
+[5.652182] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//shared_secret.h\n'}
+[5.652211] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_serialize.h\n'}
+[5.652238] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_plugins.h\n'}
+[5.652266] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_fsm.h\n'}
+[5.652294] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_types.h\n'}
+[5.652371] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_ac.so\n'}
+[5.652694] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_ac.so" to "$ORIGIN/../lib"\n'}
+[5.652803] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_auth.so\n'}
+[5.653100] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_auth.so" to "$ORIGIN/../lib"\n'}
+[5.653229] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_crypto.so\n'}
+[5.653635] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_crypto.so" to "$ORIGIN/../lib"\n'}
+[5.653739] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include\n'}
+[5.653785] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[5.653835] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi\n'}
+[5.653874] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_ownip.h\n'}
+[5.653904] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_init.h\n'}
+[5.653948] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_inverse_uint32_set.h\n'}
+[5.653993] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typelookup.h\n'}
+[5.654039] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_plist.h\n'}
+[5.654093] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_log.h\n'}
+[5.654124] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_unused.h\n'}
+[5.654153] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.idl\n'}
+[5.654366] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_entity_index.h\n'}
+[5.654411] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata_default.h\n'}
+[5.654494] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_impl.h\n'}
+[5.654536] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/sysdeps.h\n'}
+[5.654702] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_entity_match.h\n'}
+[5.654836] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typelib.h\n'}
+[5.654868] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_statistics.h\n'}
+[5.654897] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata_pserop.h\n'}
+[5.654924] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_util.h\n'}
+[5.654954] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_radmin.h\n'}
+[5.655024] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_sertopic.h\n'}
+[5.655057] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_wraddrset.h\n'}
+[5.655089] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_freelist.h\n'}
+[5.655125] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.h\n'}
+[5.655188] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_misc.h\n'}
+[5.655243] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typebuilder.h\n'}
+[5.655275] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_udp.h\n'}
+[5.655310] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_lifespan.h\n'}
+[5.655340] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_transmit.h\n'}
+[5.655370] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_mcgroup.h\n'}
+[5.655400] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_raweth.h\n'}
+[5.655431] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata_plist.h\n'}
+[5.655461] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_qosmatch.h\n'}
+[5.655492] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_proxy_endpoint.h\n'}
+[5.655536] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_lat_estim.h\n'}
+[5.655613] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_portmapping.h\n'}
+[5.655650] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_protocol.h\n'}
+[5.655681] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_domaingv.h\n'}
+[5.655730] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_thread.h\n'}
+[5.655760] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_cfgunits.h\n'}
+[5.655790] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_proxy_participant.h\n'}
+[5.655820] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_gc.h\n'}
+[5.655850] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_omg.h\n'}
+[5.655881] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_rhc.h\n'}
+[5.655912] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typewrap.h\n'}
+[5.655942] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_vnet.h\n'}
+[5.655984] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_entity.h\n'}
+[5.656045] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_config.h\n'}
+[5.656080] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_vendor.h\n'}
+[5.656117] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_cdrstream.h\n'}
+[5.656149] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.idl\n'}
+[5.656180] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_bswap.h\n'}
+[5.656213] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_ipaddr.h\n'}
+[5.656261] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_deliver_locally.h\n'}
+[5.656310] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_ddsi_discovery.h\n'}
+[5.656338] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_bitset.h\n'}
+[5.656376] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_sertype.h\n'}
+[5.656405] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_hbcontrol.h\n'}
+[5.656434] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_cfgelems.h\n'}
+[5.656463] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_keyhash.h\n'}
+[5.656505] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_tran.h\n'}
+[5.656554] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_debmon.h\n'}
+[5.656585] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_handshake.h\n'}
+[5.656616] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xqos.h\n'}
+[5.656645] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_pmd.h\n'}
+[5.656689] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_tcp.h\n'}
+[5.656748] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_ssl.h\n'}
+[5.656780] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_pcap.h\n'}
+[5.656810] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_whc.h\n'}
+[5.656839] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_config_impl.h\n'}
+[5.656890] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_plist_generic.h\n'}
+[5.656922] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_locator.h\n'}
+[5.656952] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_xevent.h\n'}
+[5.656987] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_time.h\n'}
+[5.657036] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata.h\n'}
+[5.657102] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_lease.h\n'}
+[5.657133] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_endpoint.h\n'}
+[5.657164] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_feature_check.h\n'}
+[5.657194] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_xmsg.h\n'}
+[5.657239] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_addrset.h\n'}
+[5.657269] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_acknack.h\n'}
+[5.657299] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_rtps.h\n'}
+[5.657328] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_receive.h\n'}
+[5.657371] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.idl\n'}
+[5.657401] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_tkmap.h\n'}
+[5.657444] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_builtin_topic_if.h\n'}
+[5.657490] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_participant.h\n'}
+[5.657543] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_list_genptr.h\n'}
+[5.657575] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.h\n'}
+[5.657605] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_deadline.h\n'}
+[5.657648] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_list_tmpl.h\n'}
+[5.657701] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_sockwaitset.h\n'}
+[5.657735] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_topic.h\n'}
+[5.657766] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_guid.h\n'}
+[5.657809] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_msg.h\n'}
+[5.657862] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_threadmon.h\n'}
+[5.657893] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.h\n'}
+[5.657924] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_exchange.h\n'}
+[5.657967] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_iid.h\n'}
+[5.658012] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_shm_transport.h\n'}
+[5.658057] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include\n'}
+[5.658104] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/ddsc\n'}
+[5.658132] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/ddsc/dds.h\n'}
+[5.658174] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[5.658219] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc\n'}
+[5.658266] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_internal_api.h\n'}
+[5.658311] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_status.h\n'}
+[5.658357] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_impl.h\n'}
+[5.658403] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_data_allocator.h\n'}
+[5.658447] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_listener.h\n'}
+[5.658491] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_loan_api.h\n'}
+[5.658536] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_qosdefs.h\n'}
+[5.658587] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_statistics.h\n'}
+[5.658620] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_rhc.h\n'}
+[5.658651] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_qos.h\n'}
+[5.658695] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_alloc.h\n'}
+[5.658740] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_basic_types.h\n'}
+[5.658787] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_opcodes.h\n'}
+[5.658837] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_error.h\n'}
+[5.658868] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/dds.h\n'}
+[5.658912] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include\n'}
+[5.658963] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[5.658994] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/export.h\n'}
+[5.659039] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libddsc.so.0.10.4\n'}
+[5.663719] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libddsc.so.0\n'}
+[5.663800] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libddsc.so.0.10.4" to "$ORIGIN/../lib"\n'}
+[5.663845] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libddsc.so\n'}
+[5.664034] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/CONTRIBUTING.md\n'}
+[5.664138] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/CYCLONEDDS_QUALITY_DECLARATION.md\n'}
+[5.664277] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/LICENSE\n'}
+[5.664321] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/NOTICE.md\n'}
+[5.664385] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/README.md\n'}
+[5.664519] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/CHANGELOG.rst\n'}
+[5.666087] (cyclonedds) CommandEnded: {'returncode': 0}
+[5.711858] (-) TimerEvent: {}
+[5.812800] (-) TimerEvent: {}
+[5.819527] (cyclonedds) JobEnded: {'identifier': 'cyclonedds', 'rc': 0}
+[5.819891] (-) EventReactorShutdown: {}

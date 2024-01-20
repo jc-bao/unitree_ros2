@@ -1,0 +1,69 @@
+[0.088s] Invoking command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/build/go2_demo': /usr/bin/cmake /home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/src -DCMAKE_INSTALL_PREFIX=/home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/install/go2_demo
+[0.132s] -- The C compiler identification is GNU 9.4.0
+[0.166s] -- The CXX compiler identification is GNU 9.4.0
+[0.169s] -- Check for working C compiler: /usr/bin/cc
+[0.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.212s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.261s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.314s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.388s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.388s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.502s] -- Found unitree_go: 0.0.0 (/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+[0.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.575s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.595s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.744s] -- Found unitree_api: 0.0.0 (/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/cmake)
+[0.783s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.812s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.813s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.813s] -- Looking for pthread.h
+[0.860s] -- Looking for pthread.h - found
+[0.860s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.906s] -- Looking for pthread_create in pthreads
+[0.942s] -- Looking for pthread_create in pthreads - not found
+[0.942s] -- Looking for pthread_create in pthread
+[0.985s] -- Looking for pthread_create in pthread - found
+[0.986s] -- Found Threads: TRUE  
+[1.079s] -- Found rosbag2_cpp: 0.3.11 (/opt/ros/foxy/share/rosbag2_cpp/cmake)
+[1.104s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[1.114s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.145s] Error parsing '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/src/package.xml':
+[1.214s] Traceback (most recent call last):
+[1.214s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.214s]     main()
+[1.214s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.214s]     raise e
+[1.214s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.214s]     package = parse_package_string(
+[1.214s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.214s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.214s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/src/package.xml':
+[1.214s] Error(s):
+[1.214s] - The generic dependency on 'std_msgs' is redundant with: exec_depend
+[1.225s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.226s]   execute_process(/usr/bin/python3
+[1.226s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.226s]   /home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/src/package.xml
+[1.226s]   /home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/build/go2_demo/ament_cmake_core/package.cmake)
+[1.226s]   returned error code 1
+[1.226s] Call Stack (most recent call first):
+[1.226s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.226s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.226s]   CMakeLists.txt:72 (ament_lint_auto_find_test_dependencies)
+[1.226s] 
+[1.226s] 
+[1.227s] -- Configuring incomplete, errors occurred!
+[1.227s] See also "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/build/go2_demo/CMakeFiles/CMakeOutput.log".
+[1.227s] See also "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/build/go2_demo/CMakeFiles/CMakeError.log".
+[1.233s] Invoked command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/build/go2_demo' returned '1': /usr/bin/cmake /home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/src -DCMAKE_INSTALL_PREFIX=/home/tairanhe/workspace/foxy-unitree/unitree_ros2/Go2_ROS2_example/install/go2_demo

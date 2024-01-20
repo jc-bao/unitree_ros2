@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing h1.egg-info/PKG-INFO
+writing dependency_links to h1.egg-info/dependency_links.txt
+writing entry points to h1.egg-info/entry_points.txt
+writing requirements to h1.egg-info/requires.txt
+writing top-level names to h1.egg-info/top_level.txt
+reading manifest file 'h1.egg-info/SOURCES.txt'
+writing manifest file 'h1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/python3.8/site-packages/h1.egg-link (link to .)
+Installing h1_fake_pub script to /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/h1
+Installing h1_sub script to /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/h1
+
+Installed /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1
+running install_data
+copying package.xml -> /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/share/h1

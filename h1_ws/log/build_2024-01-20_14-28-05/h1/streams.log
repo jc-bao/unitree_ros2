@@ -1,0 +1,18 @@
+[0.559s] Invoking command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1': PYTHONPATH=/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1/prefix_override:/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1/build --no-deps install_data
+[0.687s] running develop
+[0.757s] running egg_info
+[0.757s] writing h1.egg-info/PKG-INFO
+[0.757s] writing dependency_links to h1.egg-info/dependency_links.txt
+[0.757s] writing entry points to h1.egg-info/entry_points.txt
+[0.757s] writing requirements to h1.egg-info/requires.txt
+[0.757s] writing top-level names to h1.egg-info/top_level.txt
+[0.776s] reading manifest file 'h1.egg-info/SOURCES.txt'
+[0.776s] writing manifest file 'h1.egg-info/SOURCES.txt'
+[0.795s] running build_ext
+[0.795s] Creating /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/python3.8/site-packages/h1.egg-link (link to .)
+[0.796s] Installing h1_fake_pub script to /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/h1
+[0.796s] Installing h1_sub script to /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/h1
+[0.796s] 
+[0.796s] Installed /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1
+[0.796s] running install_data
+[0.810s] Invoked command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1' returned '0': PYTHONPATH=/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1/prefix_override:/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1/build --no-deps install_data

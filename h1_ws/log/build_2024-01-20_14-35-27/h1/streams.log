@@ -1,0 +1,19 @@
+[0.557s] Invoking command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1': PYTHONPATH=/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1/prefix_override:/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1/build --no-deps install_data
+[0.686s] running develop
+[0.756s] running egg_info
+[0.756s] writing h1.egg-info/PKG-INFO
+[0.756s] writing dependency_links to h1.egg-info/dependency_links.txt
+[0.756s] writing entry points to h1.egg-info/entry_points.txt
+[0.756s] writing requirements to h1.egg-info/requires.txt
+[0.756s] writing top-level names to h1.egg-info/top_level.txt
+[0.775s] reading manifest file 'h1.egg-info/SOURCES.txt'
+[0.775s] writing manifest file 'h1.egg-info/SOURCES.txt'
+[0.794s] running build_ext
+[0.794s] Creating /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/python3.8/site-packages/h1.egg-link (link to .)
+[0.794s] Installing h1_fake_pub script to /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/h1
+[0.794s] Installing h1_sub script to /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/h1
+[0.794s] 
+[0.795s] Installed /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1
+[0.795s] running install_data
+[0.795s] copying package.xml -> /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/share/h1
+[0.809s] Invoked command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1' returned '0': PYTHONPATH=/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1/prefix_override:/home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/install/h1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tairanhe/workspace/foxy-unitree/unitree_ros2/h1_ws/build/h1/build --no-deps install_data

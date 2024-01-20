@@ -1,0 +1,616 @@
+[0.037s] Invoking command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': /usr/bin/cmake /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds
+[0.116s] -- The C compiler identification is GNU 9.4.0
+[0.122s] -- Check for working C compiler: /usr/bin/cc
+[0.169s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.170s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.218s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.218s] -- Setting build type to 'RelWithDebInfo' as none was specified.
+[0.222s] -- Looking for getopt.h
+[0.266s] -- Looking for getopt.h - found
+[0.314s] -- Building with OpenSSL support
+[0.320s] -- Looking for stdint.h
+[0.363s] -- Looking for stdint.h - found
+[0.363s] -- Looking for inttypes.h
+[0.407s] -- Looking for inttypes.h - found
+[0.407s] -- Looking for sys/types.h
+[0.452s] -- Looking for sys/types.h - found
+[0.452s] -- Looking for stdint.h
+[0.495s] -- Looking for stdint.h - found
+[0.495s] -- Looking for stddef.h
+[0.538s] -- Looking for stddef.h - found
+[0.538s] -- Check size of intmax_t
+[0.582s] -- Check size of intmax_t - done
+[0.583s] -- Looking for stpcpy
+[0.627s] -- Looking for stpcpy - found
+[0.627s] -- Looking for strlcpy
+[0.644s] -- Looking for strlcpy - not found
+[0.645s] -- Looking for strlcat
+[0.662s] -- Looking for strlcat - not found
+[0.663s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.704s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.705s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.746s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[0.746s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[0.788s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[0.793s] -- Looking for gethostname
+[0.837s] -- Looking for gethostname - found
+[0.838s] -- Looking for inet_ntop
+[0.885s] -- Looking for inet_ntop - found
+[0.885s] -- Looking for inet_pton
+[0.929s] -- Looking for inet_pton - found
+[0.930s] -- Looking for getaddrinfo
+[0.975s] -- Looking for getaddrinfo - found
+[0.976s] -- Looking for gethostbyname_r
+[1.021s] -- Looking for gethostbyname_r - found
+[1.022s] -- Check size of struct sockaddr_in6
+[1.067s] -- Check size of struct sockaddr_in6 - done
+[1.068s] -- Looking for pthread.h
+[1.113s] -- Looking for pthread.h - found
+[1.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.159s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.159s] -- Looking for pthread_create in pthreads
+[1.196s] -- Looking for pthread_create in pthreads - not found
+[1.196s] -- Looking for pthread_create in pthread
+[1.240s] -- Looking for pthread_create in pthread - found
+[1.241s] -- Found Threads: TRUE  
+[1.241s] -- Looking for clock_gettime in c
+[1.285s] -- Looking for clock_gettime in c - found
+[1.470s] -- Configuring done
+[1.513s] -- Generating done
+[1.515s] -- Build files have been written to: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds
+[1.520s] Invoked command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': /usr/bin/cmake /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/src/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds
+[1.522s] Invoking command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': /usr/bin/cmake --build /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds -- -j32 -l32
+[1.545s] [  1%] [34m[1mGenerating src/md5.c[0m
+[1.545s] [35m[1mScanning dependencies of target _confgen[0m
+[1.545s] [35m[1mScanning dependencies of target idlpp[0m
+[1.546s] [  1%] [34m[1mGenerating include/idl/misc.h[0m
+[1.546s] [35m[1mScanning dependencies of target ddsrt-internal[0m
+[1.546s] [  1%] [34m[1mGenerating include/idl/endian.h[0m
+[1.546s] [  2%] [34m[1mGenerating include/idl/attributes.h[0m
+[1.549s] [  2%] [34m[1mGenerating include/idl/md5.h[0m
+[1.552s] [  2%] Built target _confgen
+[1.557s] [  3%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/directive.c.o[0m
+[1.557s] [  3%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/eval.c.o[0m
+[1.558s] [  3%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/main.c.o[0m
+[1.559s] [  3%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/mbchar.c.o[0m
+[1.559s] [  4%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/support.c.o[0m
+[1.560s] [  5%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/expand.c.o[0m
+[1.562s] [  5%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/system.c.o[0m
+[1.562s] [35m[1mScanning dependencies of target ddsc[0m
+[1.563s] [35m[1mScanning dependencies of target idl[0m
+[1.576s] [  5%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/avl.c.o[0m
+[1.576s] [  6%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/atomics.c.o[0m
+[1.576s] [  6%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/log.c.o[0m
+[1.578s] [  6%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtod.c.o[0m
+[1.579s] [  7%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/bswap.c.o[0m
+[1.579s] [  7%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/io.c.o[0m
+[1.579s] [  8%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/retcode.c.o[0m
+[1.579s] [  8%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtol.c.o[0m
+[1.581s] [  9%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/mh3.c.o[0m
+[1.582s] [  9%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ.c.o[0m
+[1.582s] [  9%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads.c.o[0m
+[1.582s] [ 11%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/directive.c.o[0m
+[1.582s] [ 10%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/expand_vars.c.o[0m
+[1.582s] [ 11%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/file.c.o[0m
+[1.583s] [ 11%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/fibheap.c.o[0m
+[1.583s] [ 11%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/string.c.o[0m
+[1.583s] [ 11%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/expression.c.o[0m
+[1.583s] [ 12%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets.c.o[0m
+[1.584s] [ 13%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/circlist.c.o[0m
+[1.584s] [ 13%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/symbol.c.o[0m
+[1.584s] [ 13%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/hopscotch.c.o[0m
+[1.586s] [ 13%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/md5.c.o[0m
+[1.599s] [ 13%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scanner.c.o[0m
+[1.599s] [ 14%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/processor.c.o[0m
+[1.621s] [ 15%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/xmlparser.c.o[0m
+[1.626s] [ 15%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs.c.o[0m
+[1.626s] [ 15%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/cdtors.c.o[0m
+[1.632s] [ 16%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random.c.o[0m
+[1.652s] [ 16%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time.c.o[0m
+[1.659s] [ 17%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs/posix/ifaddrs.c.o[0m
+[1.661s] [ 18%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/string.c.o[0m
+[1.692s] [ 18%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/gethostname.c.o[0m
+[1.694s] [ 19%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/heap/posix/heap.c.o[0m
+[1.697s] [ 19%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/dynlib/posix/dynlib.c.o[0m
+[1.706s] [ 19%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ/posix/environ.c.o[0m
+[1.706s] [ 19%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/socket.c.o[0m
+[1.706s] [ 20%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/filesystem/posix/filesystem.c.o[0m
+[1.708s] [ 20%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/process/posix/process.c.o[0m
+[1.713s] [ 20%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/annotation.c.o[0m
+[1.733s] [ 21%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random/posix/random.c.o[0m
+[1.742s] [ 21%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scope.c.o[0m
+[1.743s] [ 21%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sync/posix/sync.c.o[0m
+[1.748s] [ 21%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads/posix/threads.c.o[0m
+[1.761s] [ 21%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time/posix/time.c.o[0m
+[1.765s] [ 22%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/netstat/linux/netstat.c.o[0m
+[1.770s] [ 23%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/rusage/posix/rusage.c.o[0m
+[1.772s] [ 24%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/tree.c.o[0m
+[1.778s] [ 24%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/visit.c.o[0m
+[1.786s] [ 24%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/print.c.o[0m
+[1.790s] [ 24%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/hashid.c.o[0m
+[1.792s] [ 25%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/parser.c.o[0m
+[1.805s] [ 26%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/keylist.c.o[0m
+[1.825s] [ 26%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/md5.c.o[0m
+[1.951s] [ 26%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o[0m
+[1.955s] [ 26%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o[0m
+[1.955s] [ 27%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vnet.c.o[0m
+[1.956s] [ 28%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o[0m
+[1.956s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o[0m
+[1.956s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o[0m
+[1.956s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o[0m
+[1.956s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o[0m
+[1.956s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o[0m
+[1.957s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o[0m
+[1.957s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o[0m
+[1.957s] [ 30%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o[0m
+[1.958s] [ 31%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_default.c.o[0m
+[1.958s] [ 31%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o[0m
+[1.958s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o[0m
+[1.958s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o[0m
+[1.959s] [ 33%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype.c.o[0m
+[1.959s] [ 33%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o[0m
+[1.959s] [ 34%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_pserop.c.o[0m
+[1.963s] [ 34%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_default.c.o[0m
+[1.967s] [ 34%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_plist.c.o[0m
+[1.998s] [ 34%] [32m[1mLinking C static library ../../lib/libddsrt-internal.a[0m
+[2.008s] [ 34%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic.c.o[0m
+[2.018s] [ 35%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o[0m
+[2.035s] [ 35%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o[0m
+[2.049s] [ 35%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o[0m
+[2.049s] [ 35%] Built target ddsrt-internal
+[2.060s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o[0m
+[2.060s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o[0m
+[2.106s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o[0m
+[2.106s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o[0m
+[2.118s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o[0m
+[2.127s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o[0m
+[2.127s] [ 38%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o[0m
+[2.131s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o[0m
+[2.148s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_cdrstream.c.o[0m
+[2.156s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_config.c.o[0m
+[2.162s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o[0m
+[2.183s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ownip.c.o[0m
+[2.183s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o[0m
+[2.186s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_list_genptr.c.o[0m
+[2.193s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_wraddrset.c.o[0m
+[2.198s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelib.c.o[0m
+[2.220s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity.c.o[0m
+[2.228s] [ 43%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_participant.c.o[0m
+[2.229s] [ 43%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_match.c.o[0m
+[2.245s] [ 43%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_participant.c.o[0m
+[2.263s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_topic.c.o[0m
+[2.268s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_endpoint.c.o[0m
+[2.270s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_endpoint.c.o[0m
+[2.272s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_addrset.c.o[0m
+[2.278s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bitset_inlines.c.o[0m
+[2.282s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bswap.c.o[0m
+[2.295s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_ddsi_discovery.c.o[0m
+[2.339s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_debmon.c.o[0m
+[2.344s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_gc.c.o[0m
+[2.355s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_init.c.o[0m
+[2.363s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lat_estim.c.o[0m
+[2.373s] [ 48%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lease.c.o[0m
+[2.378s] [ 48%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_misc.c.o[0m
+[2.391s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_pcap.c.o[0m
+[2.425s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_qosmatch.c.o[0m
+[2.444s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_radmin.c.o[0m
+[2.481s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_receive.c.o[0m
+[2.494s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_sockwaitset.c.o[0m
+[2.496s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_thread.c.o[0m
+[2.507s] [ 51%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_transmit.c.o[0m
+[2.510s] [ 51%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_inverse_uint32_set.c.o[0m
+[2.527s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_whc.c.o[0m
+[2.528s] [ 53%] [32m[1mLinking C static library ../../../lib/libidlpp.a[0m
+[2.563s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xevent.c.o[0m
+[2.576s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xmsg.c.o[0m
+[2.577s] [ 54%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_freelist.c.o[0m
+[2.586s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o[0m
+[2.587s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/sysdeps.c.o[0m
+[2.593s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typeinfo.c.o[0m
+[2.597s] [ 55%] Built target idlpp
+[2.607s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typelookup.c.o[0m
+[2.608s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typemap.c.o[0m
+[2.621s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typewrap.c.o[0m
+[2.622s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelookup.c.o[0m
+[2.630s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typebuilder.c.o[0m
+[2.638s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o[0m
+[2.646s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o[0m
+[2.675s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o[0m
+[2.675s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/defconfig.c.o[0m
+[2.686s] [ 59%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o[0m
+[2.690s] [ 59%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o[0m
+[2.694s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o[0m
+[2.696s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o[0m
+[2.697s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o[0m
+[2.699s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o[0m
+[2.707s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o[0m
+[2.748s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o[0m
+[2.791s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o[0m
+[2.803s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o[0m
+[2.803s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o[0m
+[2.805s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o[0m
+[2.814s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o[0m
+[2.834s] [ 64%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o[0m
+[2.836s] [ 64%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o[0m
+[2.867s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o[0m
+[2.878s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o[0m
+[2.884s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o[0m
+[2.918s] [ 65%] [32m[1mLinking C shared library ../../lib/libcycloneddsidl.so[0m
+[2.930s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o[0m
+[2.938s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o[0m
+[2.946s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o[0m
+[2.990s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o[0m
+[2.994s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o[0m
+[2.995s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o[0m
+[3.047s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o[0m
+[3.047s] [ 68%] Built target idl
+[3.058s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o[0m
+[3.058s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o[0m
+[3.076s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o[0m
+[3.084s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertype_builtintopic.c.o[0m
+[3.089s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_data_allocator.c.o[0m
+[3.098s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_loan.c.o[0m
+[3.109s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o[0m
+[3.133s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o[0m
+[3.140s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o[0m
+[3.160s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/shared_secret.c.o[0m
+[3.161s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o[0m
+[3.168s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o[0m
+[3.172s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o[0m
+[3.207s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o[0m
+[3.228s] [ 74%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o[0m
+[3.228s] [ 74%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o[0m
+[3.230s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o[0m
+[3.236s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o[0m
+[3.239s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o[0m
+[3.254s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o[0m
+[3.263s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o[0m
+[3.277s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o[0m
+[3.283s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o[0m
+[3.283s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o[0m
+[3.292s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o[0m
+[3.293s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o[0m
+[3.297s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o[0m
+[3.297s] [ 79%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o[0m
+[3.310s] [ 79%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o[0m
+[3.313s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o[0m
+[3.315s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o[0m
+[3.317s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o[0m
+[3.334s] [ 81%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o[0m
+[3.335s] [ 81%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o[0m
+[3.343s] [ 81%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o[0m
+[3.347s] [ 82%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o[0m
+[3.347s] [ 82%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o[0m
+[3.350s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o[0m
+[3.360s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o[0m
+[3.360s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o[0m
+[3.374s] [ 84%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o[0m
+[3.390s] [ 84%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o[0m
+[3.404s] [ 84%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o[0m
+[3.404s] [ 85%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o[0m
+[3.408s] [ 85%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o[0m
+[3.420s] [ 85%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o[0m
+[3.427s] [ 85%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o[0m
+[3.428s] [ 86%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o[0m
+[3.430s] [ 87%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o[0m
+[4.206s] [ 87%] [32m[1mLinking C shared library ../../lib/libddsc.so[0m
+[4.331s] [ 87%] Built target ddsc
+[4.337s] [35m[1mScanning dependencies of target idlc[0m
+[4.337s] [35m[1mScanning dependencies of target dds_security_auth[0m
+[4.337s] [35m[1mScanning dependencies of target dds_security_ac[0m
+[4.338s] [35m[1mScanning dependencies of target dds_security_crypto[0m
+[4.354s] [ 88%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/idlc.c.o[0m
+[4.355s] [ 88%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/plugin.c.o[0m
+[4.355s] [ 88%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o[0m
+[4.355s] [ 90%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o[0m
+[4.355s] [ 90%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/options.c.o[0m
+[4.356s] [ 90%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o[0m
+[4.359s] [ 90%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor_type_meta.c.o[0m
+[4.359s] [ 90%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/generator.c.o[0m
+[4.360s] [ 91%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/types.c.o[0m
+[4.360s] [ 91%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor.c.o[0m
+[4.360s] [ 91%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o[0m
+[4.361s] [ 91%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o[0m
+[4.363s] [ 91%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o[0m
+[4.365s] [ 92%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o[0m
+[4.366s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o[0m
+[4.366s] [ 93%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o[0m
+[4.369s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o[0m
+[4.370s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o[0m
+[4.370s] [ 94%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o[0m
+[4.370s] [ 94%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o[0m
+[4.371s] [ 95%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o[0m
+[4.371s] [ 95%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o[0m
+[4.372s] [ 95%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o[0m
+[4.790s] [ 96%] [32m[1mLinking C shared library ../../../../lib/libdds_security_ac.so[0m
+[4.797s] [ 97%] [32m[1mLinking C shared library ../../../../lib/libdds_security_crypto.so[0m
+[4.830s] [ 97%] Built target dds_security_ac
+[4.836s] [ 97%] [32m[1mLinking C shared library ../../../../lib/libdds_security_auth.so[0m
+[4.836s] [ 97%] Built target dds_security_crypto
+[4.873s] [ 97%] Built target dds_security_auth
+[4.990s] [ 97%] [32m[1mLinking C executable ../../../bin/idlc[0m
+[5.031s] [ 97%] Built target idlc
+[5.037s] [35m[1mScanning dependencies of target ddsperf_types_generate[0m
+[5.043s] [ 97%] [34m[1mGenerating ddsperf_types.c, ddsperf_types.h[0m
+[5.059s] [ 97%] Built target ddsperf_types_generate
+[5.065s] [35m[1mScanning dependencies of target ddsperf[0m
+[5.080s] [ 97%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf.c.o[0m
+[5.080s] [ 97%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/cputime.c.o[0m
+[5.080s] [ 98%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/netload.c.o[0m
+[5.081s] [ 98%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/async_listener.c.o[0m
+[5.081s] [ 99%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf_types.c.o[0m
+[5.576s] [ 99%] [32m[1mLinking C executable ../../../bin/ddsperf[0m
+[5.610s] [100%] Built target ddsperf
+[5.618s] Invoked command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': /usr/bin/cmake --build /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds -- -j32 -l32
+[5.641s] Invoking command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds': /usr/bin/cmake --install /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds
+[5.645s] -- Install configuration: "RelWithDebInfo"
+[5.645s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfig.cmake
+[5.646s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfigVersion.cmake
+[5.646s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake
+[5.646s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake
+[5.646s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig/CycloneDDS.pc
+[5.646s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idlc
+[5.646s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idlc/options.h
+[5.646s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idlc/generator.h
+[5.646s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin/idlc
+[5.647s] -- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin/idlc" to "$ORIGIN/../lib"
+[5.647s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/idlc/Generate.cmake
+[5.647s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin/ddsperf
+[5.647s] -- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin/ddsperf" to "$ORIGIN/../lib"
+[5.647s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync.h
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem.h
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/circlist.h
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/fibheap.h
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets/posix.h
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets/windows.h
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/mh3.h
+[5.648s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/expand_vars.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/dynlib.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/endian.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/misc.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/string.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/bswap.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync/posix.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync/freertos.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync/windows.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/hopscotch.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads/posix.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads/freertos.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads/windows.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sched.h
+[5.649s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/time
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/time/freertos.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/random.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/ifaddrs.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/strtol.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/heap.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types/posix.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types/windows.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types/vxworks.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/countargs.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem/posix.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem/windows.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/environ.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/netstat.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/retcode.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/align.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/process.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/cdtors.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/xmlparser.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/gcc.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/arm.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/msvc.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/sun.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/attributes.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/iovec.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/arch.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/log.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/time.h
+[5.650s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/avl.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/md5.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/io.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/rusage.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/static_assert.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/strtod.h
+[5.651s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include
+[5.651s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/config.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/version.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/features.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/processor.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/string.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/scope.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/tree.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/print.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/file.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/symbol.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/retcode.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/visit.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/stream.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/expression.h
+[5.651s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/endian.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/misc.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/version.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/export.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/attributes.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/idl/md5.h
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so.0.10.4
+[5.651s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so.0
+[5.651s] -- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so.0.10.4" to "$ORIGIN/../lib"
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so
+[5.652s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include
+[5.652s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_types.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_defs.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_access_control.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_cryptography.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_err.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_authentication.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core/
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_timed_cb.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_utils.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//shared_secret.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_serialize.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_plugins.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_fsm.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_types.h
+[5.652s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_ac.so
+[5.653s] -- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_ac.so" to "$ORIGIN/../lib"
+[5.653s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_auth.so
+[5.653s] -- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_auth.so" to "$ORIGIN/../lib"
+[5.653s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_crypto.so
+[5.654s] -- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libdds_security_crypto.so" to "$ORIGIN/../lib"
+[5.654s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include
+[5.654s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_ownip.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_init.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_inverse_uint32_set.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typelookup.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_plist.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_log.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_unused.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.idl
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_entity_index.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata_default.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_impl.h
+[5.654s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/sysdeps.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_entity_match.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typelib.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_statistics.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata_pserop.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_util.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_radmin.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_sertopic.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_wraddrset.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_freelist.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_misc.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typebuilder.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_udp.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_lifespan.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_transmit.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_mcgroup.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_raweth.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata_plist.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_qosmatch.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_proxy_endpoint.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_lat_estim.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_portmapping.h
+[5.655s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_protocol.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_domaingv.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_thread.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_cfgunits.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_proxy_participant.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_gc.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_omg.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_rhc.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typewrap.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_vnet.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_entity.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_config.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_vendor.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_cdrstream.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.idl
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_bswap.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_ipaddr.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_deliver_locally.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_ddsi_discovery.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_bitset.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_sertype.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_hbcontrol.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_cfgelems.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_keyhash.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_tran.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_debmon.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_handshake.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xqos.h
+[5.656s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_pmd.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_tcp.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_ssl.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_pcap.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_whc.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_config_impl.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_plist_generic.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_locator.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_xevent.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_time.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_lease.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_endpoint.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_feature_check.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_xmsg.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_addrset.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_acknack.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_rtps.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_receive.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.idl
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_tkmap.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_builtin_topic_if.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_participant.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_list_genptr.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_deadline.h
+[5.657s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_list_tmpl.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_sockwaitset.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_topic.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_guid.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_msg.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_threadmon.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_exchange.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_iid.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_shm_transport.h
+[5.658s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/ddsc
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/ddsc/dds.h
+[5.658s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_internal_api.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_status.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_impl.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_data_allocator.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_listener.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_loan_api.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_qosdefs.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_statistics.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_rhc.h
+[5.658s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_qos.h
+[5.659s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_alloc.h
+[5.659s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_basic_types.h
+[5.659s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_opcodes.h
+[5.659s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_error.h
+[5.659s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/dds.h
+[5.659s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include
+[5.659s] -- Up-to-date: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds
+[5.659s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/include/dds/export.h
+[5.659s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libddsc.so.0.10.4
+[5.664s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libddsc.so.0
+[5.664s] -- Set runtime path of "/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libddsc.so.0.10.4" to "$ORIGIN/../lib"
+[5.664s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/libddsc.so
+[5.664s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/CONTRIBUTING.md
+[5.664s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/CYCLONEDDS_QUALITY_DECLARATION.md
+[5.664s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/LICENSE
+[5.664s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/NOTICE.md
+[5.664s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/README.md
+[5.664s] -- Installing: /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/CHANGELOG.rst
+[5.666s] Invoked command in '/home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds' returned '0': /usr/bin/cmake --install /home/tairanhe/workspace/foxy-unitree/unitree_ros2/cyclonedds_ws/build/cyclonedds
